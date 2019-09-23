@@ -12,9 +12,7 @@ namespace Kata
             }
 
             var numbers = s.Split(",").Select(int.Parse).ToArray();
-            var sum = numbers[0];
-
-            return numbers.Length == 2 ? sum + numbers[1] : sum;
+            return numbers.Sum();
         }
     }
 }
