@@ -4,7 +4,7 @@ namespace Kata
     {
         public int Add(string s)
         {
-            return -1;
+            return s.Length;
         }
     }
 }
